@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+    <meta charset="gb2312">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Narrow Jumbotron Template for Bootstrap</title>
+
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- js files -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+  </head>
+<body>
+<div class="container-fluid">
+<br>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">咕噜咕噜</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class = "active"><a href="#">主页<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">我的餐盘</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">我的咕噜 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">个人资料</a></li>
+            <li><a href="#">订餐记录</a></li>
+            <li><a href="#">待评美食</a></li>
+            <li class="divider"></li>
+            <li><a href="#">友情链接</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="黄焖鸡米饭">
+        </div>
+        <button type="submit" class="btn btn-default">咕噜一下</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">登录</a></li>
+        <li><a href="#">注册</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<br>
+<br>
+
+<div class="jumbotron">
+  <h1>梓妍鸡汁汤包</h1>
+  <p>提供鸡汁汤包、盖浇饭、牛肉面等网上订餐</p>
+  <p><a class="btn btn-success btn-lg" href="#" role="button">
+<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+赞一下
+</a></p>
+</div>
+<style>
+.jumbotron{
+	background:url(file:///C:/Users/asua1/Desktop/ruangong/fandianshequwaimai.jpg);
+}
+</style>
+
+<br>
+<div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-rounded" src="file:///C:/Users/asua1/Desktop/ruangong/xiaolongbao.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>鸡汁汤包</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p>
+         <a class="btn btn-success" href="#" role="button">
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+加入餐盘</a>
+         <a class="btn btn-warning" href="#" role="button">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+查看评论</a>  
+         </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-rounded" src="file:///C:/Users/asua1/Desktop/ruangong/shousi.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>菌菇汤包</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p>
+         <a class="btn btn-success" href="#" role="button">
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+加入餐盘</a>
+         <a class="btn btn-warning" href="#" role="button">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+查看评论</a>  
+         </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-rounded" src="file:///C:/Users/asua1/Desktop/ruangong/mian.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>海鲜小馄饨</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>
+         <a class="btn btn-success" href="#" role="button">
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+加入餐盘</a>
+         <a class="btn btn-warning" href="#" role="button">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+查看评论</a>  
+         </p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-rounded" src="file:///C:/Users/asua1/Desktop/ruangong/shaokao.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>黑椒牛柳盖浇饭</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p>
+         <a class="btn btn-success" href="#" role="button">
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+加入餐盘</a>
+         <a class="btn btn-warning" href="#" role="button">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+查看评论</a>  
+         </p>
+         
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-rounded" src="file:///C:/Users/asua1/Desktop/ruangong/chaocai.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>牛肉面</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p>
+         <a class="btn btn-success" href="#" role="button">
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+加入餐盘</a>
+         <a class="btn btn-warning" href="#" role="button">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+查看评论</a>  
+         </p>
+         </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-rounded" src="file:///C:/Users/asua1/Desktop/ruangong/naicha.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>羊肉泡馍</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>
+         <a class="btn btn-success" href="#" role="button">
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+加入餐盘</a>
+         <a class="btn btn-warning" href="#" role="button">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+查看评论</a>  
+         </p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->    
+ 
+<br>
+<hr>
+<!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a class="btn btn-success" href="#" role="button"><span class="glyphicon glyphicon-open" aria-hidden="true"></span>&nbsp;回到顶部</a></p>
+
+        <p>最终解释权归 南京大学 计算机科学与技术系 咕噜软件小组所有<a href="#"></a> <a href="#"></a></p>
+      </footer>
+
+</div>
+</body>
+</html>
