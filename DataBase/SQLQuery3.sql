@@ -14,7 +14,7 @@ NAME VARCHAR(20) NOT NULL,
 PSW VARCHAR(20) NOT NULL,
 PHONE  VARCHAR(20) ,
 ADDRES VARCHAR(30) ,
-ID VARCHAR(2) NOT NULL,
+ID VARCHAR(7) NOT NULL,
 ONL INT,
 star float,
 num int not null,
@@ -39,6 +39,8 @@ beg VARCHAR(20) ,
 fin VARCHAR(20) ,  
 PRIMARY KEY(ID),
 );
+
+
 select *
 from menu
 select *

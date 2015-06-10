@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Action0</servlet-name>
+    <servlet-class>Action0</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Action1</servlet-name>
+    <servlet-class>Action1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Ajax1</servlet-name>
+    <servlet-class>Ajax1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>virAction0</servlet-name>
+    <servlet-class>virAction0</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Action2</servlet-name>
+    <servlet-class>Action2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Action3</servlet-name>
+    <servlet-class>Action3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Action4</servlet-name>
+    <servlet-class>Action4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Info</servlet-name>
+    <servlet-class>Info</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Action5</servlet-name>
+    <servlet-class>Action5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Action6</servlet-name>
+    <servlet-class>Action6</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Action0</servlet-name>
+    <url-pattern>/Action0</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Action1</servlet-name>
+    <url-pattern>/Action1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Ajax1</servlet-name>
+    <url-pattern>/Ajax1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>virAction0</servlet-name>
+    <url-pattern>/virAction0</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Action2</servlet-name>
+    <url-pattern>/Action2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Action3</servlet-name>
+    <url-pattern>/Action3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Action4</servlet-name>
+    <url-pattern>/Action4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Info</servlet-name>
+    <url-pattern>/Info</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Action5</servlet-name>
+    <url-pattern>/Action5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Action6</servlet-name>
+    <url-pattern>/Action6</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

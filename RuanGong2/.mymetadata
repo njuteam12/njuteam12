@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="RuanGong2"
+  id="myeclipse.1432565860868"
+  context-root="/RuanGong"
+  j2ee-spec="1.4"
+  archive="RuanGong2.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
